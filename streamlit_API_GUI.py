@@ -11,9 +11,7 @@ import json
 
 # App Code
 
-st.write("BASE_URL:", st.secrets["BASE_URL"])
-
-st.title(f"Upload data and launch campaigns - {st.secrets.BASE_URL}")
+st.title(f"Upload data and launch campaigns")
 
 # Multiline text input for JSON data
 input_data = st.text_area(label="The input field for JSON recipients")
